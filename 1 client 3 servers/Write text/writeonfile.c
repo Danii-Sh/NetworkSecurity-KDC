@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main() {
+int i;
+FILE *outfile;
+
+outfile = fopen("out.txt","w");
+i=0;
+while(i!=5)
+{fprintf(outfile,"%d",4039);
+fprintf(outfile," %d\s",88);
+fprintf(outfile," %d\n",15);
+i++;
+}
+fclose(outfile);
+}
+  
